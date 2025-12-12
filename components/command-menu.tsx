@@ -74,7 +74,7 @@ export default function CommandMenu() {
   if (!open) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-start justify-center pt-[20vh] px-4">
+    <div className="fixed inset-0 z-100 flex items-start justify-center pt-[20vh] px-4">
       {/* Backdrop */}
       <div
         className="fixed inset-0 bg-black/60 backdrop-blur-sm transition-opacity"
